@@ -1,5 +1,5 @@
 #labels Featured,Phase-Implementation
-#login using php and access the API through Javascript.
+#autenticate using php
 
 
 = Introduction =
