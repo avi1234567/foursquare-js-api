@@ -1,8 +1,7 @@
-#labels Featured,Phase-Implementation
 #autenticate using php
 
-
 = Introduction =
+
 Sometimes you simple want to access the API without having to leave your current page for acceptance.
 You can achieve this by writing a simple php script which sets the 'access_token' cookie, which can be accessed by javascript.
 
