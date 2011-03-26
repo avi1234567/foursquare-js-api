@@ -26,4 +26,4 @@ client.venuesClient.venues({
 
 }}}
 
-_<variables> that contain a * are optional_
+_variables that contain a * are optional_
