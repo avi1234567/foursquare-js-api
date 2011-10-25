@@ -11,18 +11,18 @@ if(!client.accessToken)
     client.authenticate(false);
 }
 
-client.venuesClient.venues({ 
-    onSuccess: function(response)
+client.venuesClient.venues.search(parameters, { 
+    onSuccess: function(data)
     {
         // The request succeeded
         // implement wat you want to do with the response
     },
-    onFailure: function(response)
+    onFailure: function(data)
     {
         // The request failed
         // implement wat you want to do with the response
     }
-}, "<venue_id>")
+});
 
 }}}
 
