@@ -3,7 +3,7 @@
 
 {{{
 
-var client = new FourSquareClient("<client_id>", "<client_secret>", "<redirect_uri>", "<rember_credentials*>");
+var client = new FourSquareClient("<client_id>", "<client_secret>", "<redirect_uri>", "<rember_credentials>");
 
 // if you don't want to use the client_secret you can first authorize the user.
 if(!client.accessToken)
