@@ -11,7 +11,7 @@ if(!client.accessToken)
     client.authenticate(false);
 }
 
-client.venuesClient.venues.search(parameters, { 
+client.venuesClient.search(parameters, { 
     onSuccess: function(data)
     {
         // The request succeeded
